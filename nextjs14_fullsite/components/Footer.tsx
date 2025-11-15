@@ -1,0 +1,1 @@
+export default function Footer(){return(<footer className="p-6 text-center border-t mt-10">© 2025 NextSite</footer>);}

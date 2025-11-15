@@ -1,0 +1,1 @@
+export default function Sobre(){return(<div className='p-10'>Página Sobre</div>);}

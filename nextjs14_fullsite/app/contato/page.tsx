@@ -1,0 +1,1 @@
+export default function Contato(){return(<div className='p-10'>Página Contato</div>);}
