@@ -19,6 +19,7 @@ export default function Navbar() {
     { name: "Recursos", href: "#about" },
     { name: "Planos", href: "#plans" },
     { name: "Depoimentos", href: "#services" },
+    { name: "Galeria", href: "#gallery" },
     { name: "Contato", href: "#contact" },
   ];
 
@@ -28,8 +29,8 @@ export default function Navbar() {
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled
-          ? "bg-white/90 backdrop-blur-lg shadow-md"
-          : "bg-transparent"
+        ? "bg-white/90 backdrop-blur-lg shadow-md"
+        : "bg-transparent"
         }`}
     >
       <div className="max-w-7xl mx-auto px-4 py-4">
